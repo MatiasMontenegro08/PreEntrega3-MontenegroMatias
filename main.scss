@@ -1,0 +1,99 @@
+/*abstracts*/
+@import './assets/scss/abstracts/variales';
+
+/*base*/
+@import './assets/scss/base/resets';
+@import './assets/scss/base/base';
+
+/*layout*/
+@import './assets/scss/layout/header';
+@import './assets/scss/layout/footer';
+
+/*components*/
+@import './assets/scss/components/card';
+@import './assets/scss/components/botones';
+
+.texto {
+    @include estilo-texto(0.9rem, justify, normal);
+    margin: 20px;
+}
+
+.pregunta {
+    @include estilo-texto(1rem, left, bold);
+    @include padding-margin(0, 20px);
+}
+
+/* Metodos */
+.metodo {
+    flex-direction: column;
+    padding: 20px;
+
+    i{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        @include padding-margin(10px, 20px);
+        @include estilo-texto(2.1rem, center, normal);
+        text-transform: uppercase;
+
+    }
+
+    h2 {
+        @include padding-margin(10px, 20px);
+        @include estilo-texto(1.9rem, left, normal);
+    }
+
+    .main-nospreg {
+        height: 100vh;
+    }
+
+    .metodo img {
+        width: 24rem;
+        padding: 20px;
+    }
+
+    footer {
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        img {
+            width: 50px;
+            justify-content: left;
+        }
+
+        i {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    .footer__nav__lista a {
+        font-size: 1rem;
+    }
+
+    .texto {
+        @include estilo-texto(1rem, justify, normal);
+        margin: 20px;
+    }
+
+    .pregunta {
+        @include estilo-texto(1.1rem, left, bold);
+        margin: 20px;
+    }
+}

@@ -1,0 +1,18 @@
+html {
+    font-size: 16px;
+    width: 100%;
+    font-family: $font-firasans;
+}
+
+h1 {
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    @extend h1;
+    text-align: left;
+}

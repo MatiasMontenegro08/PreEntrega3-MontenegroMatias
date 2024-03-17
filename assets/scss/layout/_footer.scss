@@ -1,0 +1,38 @@
+footer {
+    background-color: $color-primario;
+    padding: 10px;
+
+    i {
+        font-size: 1.5rem;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 50px;
+        justify-content: left;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+}
+
+.footer__nav__lista {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: rgb(59, 59, 59);
+    
+        &:hover {
+            color: $color-secundario;
+        }
+    }
+}

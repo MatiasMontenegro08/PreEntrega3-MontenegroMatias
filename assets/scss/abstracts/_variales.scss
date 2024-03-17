@@ -1,0 +1,25 @@
+/*Color primario*/
+$color-primario: #FFF4B9;
+
+/*Color para botones o detalles*/
+$color-secundario:#EC0C8C;
+
+/*Tipografia*/
+$font-firasans: 'FiraSans-Regular', sans-serif;
+
+/*Mixin*/
+@mixin estilo-texto($font-size, $text-aling, $font-weight) {
+    font-size: $font-size;
+    text-align: $text-aling;
+    font-weight: $font-weight;
+}
+
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin padding-margin($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}

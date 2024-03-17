@@ -1,0 +1,12 @@
+.navbar {
+    background-color: $color-primario;
+
+    img {
+        width: 150px;
+        margin-top: 1.2rem;
+    }
+}
+
+.nav-link:hover {
+    color: $color-secundario;
+}

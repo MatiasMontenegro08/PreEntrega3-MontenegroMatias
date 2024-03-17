@@ -1,0 +1,30 @@
+.container-fluid {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.contenedor {
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 5px solid $color-primario;
+    box-shadow: 2px 3px 10px rgb(129, 129, 129);
+    margin-bottom: 50px;
+    transition: all .5s ease-in-out;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.producto__titulo {
+    font-size: 1rem;
+}
+
+.producto__precio {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
