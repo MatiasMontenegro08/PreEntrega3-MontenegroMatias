@@ -138,9 +138,16 @@ footer p {
 }
 
 /* Metodos */
+.section-metodo {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
 .metodo {
   flex-direction: column;
-  padding: 20px;
+  align-items: center;
 }
 .metodo i {
   font-size: 2rem;
@@ -171,9 +178,8 @@ footer p {
   .main-nospreg {
     height: 100vh;
   }
-  .metodo img {
-    width: 24rem;
-    padding: 20px;
+  .section-metodo {
+    height: 200px;
   }
   footer h3 {
     font-size: 1rem;
