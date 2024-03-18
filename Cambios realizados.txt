@@ -1,0 +1,22 @@
+CAMBIOS REALIZADOS
+Conserve el primer archivo css de esilos para comparar con los nuevos cambios.
+
+Implemente SASS
+	Archivo main.scss es el archivo principal del proyecto.
+	Dividi el código del archivo estilos.css en diferentes partial y los importe en el archivo principal main.scss.
+	Aplique nesting, import, variables, mixin y extends, gracias al nesting, pude eliminar muchas clases que tenia creada para cada etiqueta.
+
+IMÁGENES
+Modifique las imagenes que eran muy grandes de tamaño para el uso que se les daba en la página, tanto las de productos como las del footer.
+Corregi los atributos de cada imágen "producto1" a "Taza cerámica duo pareja" (asi con todas).
+Modifique la section "metodos" al principio estaba realizado con tres imágenes, ahora lo arme utilizando los iconos y para los texto utilice las etiquetas H3, p.
+
+ANIMACIONES
+Respecto a las animaciones solo realice en las tarjetas de productos y botones. (no queria poner animaciones que no quedaran bien con la página).
+
+TODAS LAS PÁGINAS
+Agregue al sitio web las etiquetas meta (description y keywords) personalizadas para cada página, las keywords se repiten la mayoria.
+
+
+Esos son todos los cambios que realice en comparación con la segunda entrega.
+Saludos.!!!
