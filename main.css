@@ -105,6 +105,28 @@ footer p {
   font-weight: bold;
 }
 
+.perfil {
+  gap: 20px;
+  justify-content: center;
+}
+
+.cardperfil {
+  width: 18rem;
+  border: 1px solid rgb(95, 95, 95);
+  border-radius: 15px;
+  box-shadow: 1px 2px 5px rgb(129, 129, 129);
+}
+.cardperfil img {
+  width: 15rem;
+}
+.cardperfil div {
+  padding: 10px;
+}
+.cardperfil div p {
+  text-align: center;
+  font-size: 14.4px;
+}
+
 .boton {
   width: 150px;
   height: 50px;
@@ -159,6 +181,32 @@ footer p {
   font-size: 0.8rem;
 }
 
+.main-nospreg {
+  height: 100%;
+}
+
+.imgnosotros {
+  width: 200px;
+}
+.imgnosotros img {
+  width: 100%;
+}
+
+.what {
+  width: 50px;
+  height: 50px;
+  background-color: springgreen;
+  color: white;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+  border: 3px solid white;
+}
+
 @media only screen and (min-width: 992px) {
   h1, h2 {
     padding: 10px;
@@ -175,11 +223,20 @@ footer p {
     text-align: left;
     font-weight: normal;
   }
-  .main-nospreg {
-    height: 100vh;
-  }
   .section-metodo {
     height: 200px;
+  }
+  .imgnosotros {
+    width: 400px;
+  }
+  .imgnosotros img {
+    width: 100%;
+  }
+  .cardperfil {
+    width: 35rem;
+  }
+  .cardperfil div p {
+    font-size: 16px;
   }
   footer h3 {
     font-size: 1rem;

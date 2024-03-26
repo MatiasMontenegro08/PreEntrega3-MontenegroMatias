@@ -47,58 +47,29 @@
     }
 }
 
-@media only screen and (min-width: 992px) {
-    h1 {
-        @include padding-margin(10px, 20px);
-        @include estilo-texto(2.1rem, center, normal);
-        text-transform: uppercase;
+.main-nospreg {
+    height: 100%;
+}
 
-    }
-
-    h2 {
-        @include padding-margin(10px, 20px);
-        @include estilo-texto(1.9rem, left, normal);
-    }
-
-    .main-nospreg {
-        height: 100vh;
-    }
-
-    .section-metodo{
-        height: 200px;
-    }
-
-    footer {
-
-        h3 {
-            font-size: 1rem;
-        }
-
-        img {
-            width: 50px;
-            justify-content: left;
-        }
-
-        i {
-            font-size: 1.6rem;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 0.8rem;
-        }
-    }
-    .footer__nav__lista a {
-        font-size: 1rem;
-    }
-
-    .texto {
-        @include estilo-texto(1rem, justify, normal);
-        margin: 20px;
-    }
-
-    .pregunta {
-        @include estilo-texto(1.1rem, left, bold);
-        margin: 20px;
+.imgnosotros{
+    width: 200px;
+    img{
+        width: 100%;
     }
 }
+.what{
+    width: 50px;
+    height: 50px;
+    background-color: springgreen;
+    color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: 3px solid white;
+}
+
+@import './assets/scss/layout/mediaquery';
