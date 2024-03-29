@@ -16,15 +16,23 @@ html {
   font-family: "FiraSans-Regular", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 h1, h2 {
   font-size: 1.1rem;
   padding: 10px;
   margin: 20px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 
 h2 {
+  text-transform: none;
   text-align: left;
 }
 
@@ -44,6 +52,7 @@ h2 {
 footer {
   background-color: #FFF4B9;
   padding: 10px;
+  margin-top: auto;
 }
 footer i {
   font-size: 1.5rem;
@@ -56,6 +65,7 @@ footer img {
 }
 footer h3 {
   font-size: 0.9rem;
+  font-weight: bold;
 }
 footer p {
   font-size: 0.8rem;
@@ -144,6 +154,26 @@ footer p {
   transform: scale(1.05);
 }
 
+.what {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  background-color: springgreen;
+  color: white;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all 0.5s ease-in-out;
+}
+.what:hover {
+  transform: scale(1.5);
+}
+
 .texto {
   font-size: 0.9rem;
   text-align: justify;
@@ -164,7 +194,6 @@ footer p {
   height: 350px;
   display: flex;
   align-items: center;
-  padding: 20px;
 }
 
 .metodo {
@@ -182,7 +211,7 @@ footer p {
 }
 
 .main-nospreg {
-  height: 100%;
+  min-height: 100%;
 }
 
 .imgnosotros {
@@ -192,28 +221,13 @@ footer p {
   width: 100%;
 }
 
-.what {
-  width: 50px;
-  height: 50px;
-  background-color: springgreen;
-  color: white;
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  font-size: 30px;
-  border: 3px solid white;
-}
-
 @media only screen and (min-width: 992px) {
   h1, h2 {
     padding: 10px;
     margin: 20px;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
     text-transform: uppercase;
   }
   h2 {
@@ -221,7 +235,8 @@ footer p {
     margin: 20px;
     font-size: 1.9rem;
     text-align: left;
-    font-weight: normal;
+    font-weight: bold;
+    text-transform: none;
   }
   .section-metodo {
     height: 200px;
@@ -237,6 +252,24 @@ footer p {
   }
   .cardperfil div p {
     font-size: 16px;
+  }
+  .section-metodo {
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .metodo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .metodo i {
+    font-size: 4rem;
+  }
+  .metodo h3 {
+    font-size: 1.5rem;
+  }
+  .metodo p {
+    font-size: 1rem;
   }
   footer h3 {
     font-size: 1rem;

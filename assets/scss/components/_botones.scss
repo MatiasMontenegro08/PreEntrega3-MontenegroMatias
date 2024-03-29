@@ -14,3 +14,21 @@
         transform: scale(1.05);
     }
 }
+
+.what{
+    @include sizes(50px, 50px);
+    @include estilo-texto(30px, center, normal);
+    background-color: springgreen;
+    color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s ease-in-out;
+
+    &:hover{
+        transform: scale(1.5);
+    }
+}

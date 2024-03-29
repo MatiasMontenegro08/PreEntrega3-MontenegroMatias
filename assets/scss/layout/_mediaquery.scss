@@ -1,14 +1,15 @@
 @media only screen and (min-width: 992px) {
     h1 {
         @include padding-margin(10px, 20px);
-        @include estilo-texto(2.1rem, center, normal);
+        @include estilo-texto(1.8rem, center, bold);
         text-transform: uppercase;
 
     }
 
     h2 {
         @include padding-margin(10px, 20px);
-        @include estilo-texto(1.9rem, left, normal);
+        @include estilo-texto(1.9rem, left, bold);
+        text-transform: none;
     }
 
     .section-metodo{
@@ -29,6 +30,28 @@
             p{
                 font-size: 16px;
             }
+        }
+    }
+
+    .section-metodo{
+        height: 350px;
+        display: flex;
+        align-items: center;
+    }
+    .metodo {
+        flex-direction: column;
+        align-items: center;
+
+        i{
+            font-size: 4rem;
+        }
+
+        h3{
+            font-size: 1.5rem;
+        }
+
+        p{
+            font-size: 1rem;
         }
     }
 
