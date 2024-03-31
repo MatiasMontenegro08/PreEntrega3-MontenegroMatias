@@ -17,7 +17,7 @@
 
 .what{
     @include sizes(50px, 50px);
-    @include estilo-texto(30px, center, normal);
+    @include estilo-texto(34px, center, normal);
     background-color: springgreen;
     color: white;
     position: fixed;
