@@ -271,6 +271,9 @@ footer p {
   .metodo p {
     font-size: 1rem;
   }
+  .what {
+    line-height: 40px;
+  }
   footer h3 {
     font-size: 1rem;
   }
