@@ -165,7 +165,7 @@ footer p {
   position: fixed;
   right: 40px;
   bottom: 40px;
-  line-height: 40px;
+  line-height: 45px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all 0.5s ease-in-out;
