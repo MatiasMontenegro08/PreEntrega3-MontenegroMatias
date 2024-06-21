@@ -1,4 +1,9 @@
 @media only screen and (min-width: 992px) {
+
+    .navbar img {
+            margin-left: 1.2rem;
+        }
+
     h1 {
         @include padding-margin(10px, 20px);
         @include estilo-texto(1.8rem, center, bold);

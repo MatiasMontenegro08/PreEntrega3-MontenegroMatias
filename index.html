@@ -18,8 +18,10 @@
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="icon" href="./subliLogo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <title>Sublimarte</title>
 </head>
 
@@ -50,6 +52,12 @@
                         </li>
                         <li class="nav-item d-flex justify-content-start">
                             <a class="nav-link" href="./assets/page/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-start">
+                            <a class="nav-link" href="./assets/page/micarrito.html">Mi carrito</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-start">
+                            <a class="nav-link" href="./assets/page/apimercadolibre.html">API Mercado Libre</a>
                         </li>
                     </ul>
                 </div>
@@ -93,35 +101,7 @@
         <h1>Productos destacados</h1>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-lg-12 d-flex flex-wrap contenedor">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/3.png" class="card-img-top" alt="Taza cerámica duo pareja">
-                        <div class="card-body">
-                            <p class="producto__titulo">Taza cerámica duo parejas</p>
-                            <p class="producto__precio">$10450,00</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/1.png" class="card-img-top" alt="Taza cerámica mágica">
-                        <div class="card-body">
-                            <p class="producto__titulo">Taza cerámica mágica</p>
-                            <p class="producto__precio">$10450,00</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/10.png" class="card-img-top" alt="Foto polaroid 18 unidades">
-                        <div class="card-body">
-                            <p class="producto__titulo">Fotos polaroid 18u</p>
-                            <p class="producto__precio">$10450,00</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/12.png" class="card-img-top" alt="Foto polaroid souvenir">
-                        <div class="card-body">
-                            <p class="producto__titulo">Fotos polaroid souvenirs 18u</p>
-                            <p class="producto__precio">$10450,00</p>
-                        </div>
-                    </div>
+                <div class="col-sm-12 col-lg-12 d-flex flex-wrap contenedor" id="contenedor-destacados">
                 </div>
             </div>
             <a href="./assets/page/productos.html"><input class="boton" type="button" value="Ver todos"></a>
@@ -166,6 +146,8 @@
                             <li><a href="./assets/page/nosotros.html">Nosotros</a></li>
                             <li><a href="./assets/page/preguntasfrecuentes.html">Preguntas frecuentes</a></li>
                             <li><a href="./assets/page/contacto.html">Contacto</a></li>
+                            <li><a href="./assets/page/micarrito.html">Mi carrito</a></li>
+                            <li><a href="./assets/page/apimercadolibre.html">API ML</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -204,6 +186,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- JS main -->
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

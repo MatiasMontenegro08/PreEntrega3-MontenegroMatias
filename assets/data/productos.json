@@ -1,0 +1,98 @@
+[
+    {
+        "id": "t01",
+        "img": "../img/1.png",
+        "titulo": "Taza cerámica mágica",
+        "precio": 6500,
+        "descripcion": "Una taza que cambia de color con el calor.",
+        "categoria": "Tazas"
+    },
+    {
+        "id": "t02",
+        "img": "../img/2.png",
+        "titulo": "Taza cerámica con fotos",
+        "precio": 5500,
+        "descripcion": "Taza personalizada con fotos a tu elección.",
+        "categoria": "Tazas"
+    },
+    {
+        "id": "t03",
+        "img": "../img/3.png",
+        "titulo": "Taza cerámica duo parejas",
+        "precio": 10450,
+        "descripcion": "Set de tazas para parejas con diseños combinados.",
+        "categoria": "Tazas"
+    },
+    {
+        "id": "t04",
+        "img": "../img/4.png",
+        "titulo": "Tazas cerámica nombres",
+        "precio": 5500,
+        "descripcion": "Tazas personalizadas con nombres o frases.",
+        "categoria": "Tazas"
+    },
+    {
+        "id": "r01",
+        "img": "../img/5.png",
+        "titulo": "Remera modal adulto",
+        "precio": 8500,
+        "descripcion": "Remera de modal para adultos, suave y cómoda.",
+        "categoria": "Remeras"
+    },
+    {
+        "id": "r02",
+        "img": "../img/6.png",
+        "titulo": "Remera algodón adulto",
+        "precio": 10500,
+        "descripcion": "Remera de algodón para adultos, ideal para cualquier ocasión.",
+        "categoria": "Remeras"
+    },
+    {
+        "id": "r03",
+        "img": "../img/7.png",
+        "titulo": "Remera modal niños",
+        "precio": 7500,
+        "descripcion": "Remera de modal para niños, cómoda y duradera.",
+        "categoria": "Remeras"
+    },
+    {
+        "id": "r04",
+        "img": "../img/8.png",
+        "titulo": "Remera modal niños",
+        "precio": 7500,
+        "descripcion": "Remera de modal para niños, cómoda y duradera.",
+        "categoria": "Remeras"
+    },
+    {
+        "id": "f01",
+        "img": "../img/9.png",
+        "titulo": "Fotos polaroid 12u",
+        "precio": 3100,
+        "descripcion": "Set de 12 fotos estilo polaroid para recuerdos especiales.",
+        "categoria": "Fotos"
+    },
+    {
+        "id": "f02",
+        "img": "../img/10.png",
+        "titulo": "Fotos polaroid 18u",
+        "precio": 3300,
+        "descripcion": "Set de 18 fotos estilo polaroid para recuerdos especiales.",
+        "categoria": "Fotos"
+    },
+    {
+        "id": "f03",
+        "img": "../img/11.png",
+        "titulo": "Fotos polaroid souvenirs 12u",
+        "precio": 4900,
+        "descripcion": "Set de 12 fotos polaroid para souvenirs.",
+        "categoria": "Fotos"
+    },
+    {
+        "id": "f04",
+        "img": "../img/12.png",
+        "titulo": "Fotos polaroid souvenirs 18u",
+        "precio": 5200,
+        "descripcion": "Set de 18 fotos polaroid para souvenirs.",
+        "categoria": "Fotos"
+    }
+]

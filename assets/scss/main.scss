@@ -1,17 +1,18 @@
 /*abstracts*/
-@import './assets/scss/abstracts/variales';
+@import './abstracts/variales';
 
 /*base*/
-@import './assets/scss/base/resets';
-@import './assets/scss/base/base';
+@import './base/resets';
+@import './base/base';
 
 /*layout*/
-@import './assets/scss/layout/header';
-@import './assets/scss/layout/footer';
+@import './layout/header';
+@import './layout/footer';
 
 /*components*/
-@import './assets/scss/components/card';
-@import './assets/scss/components/botones';
+@import './components/card';
+@import './components/botones';
+@import './components/formularios';
 
 .texto {
     @include estilo-texto(0.9rem, justify, normal);
@@ -56,4 +57,15 @@
         width: 100%;
     }
 }
-@import './assets/scss/layout/mediaquery';
+.contenedor-carrito .contenedor-total{
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-total{
+    margin-bottom: 25px;
+}
+#confirmar{
+    margin-top: 15px;
+}
+@import './layout/mediaquery';

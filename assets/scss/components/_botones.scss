@@ -10,12 +10,25 @@
     border: none;
     transition: all .5s ease-in-out;
 
-    &:hover{
+    &:hover {
         transform: scale(1.05);
     }
 }
 
-.what{
+.btn-agregar {
+    @include sizes (100%, 50px);
+    border: none;
+    background-color: $color-primario;
+    color: $color-secundario;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgba(0, 255, 255, 0.548);
+    }
+}
+
+.what {
     @include sizes(50px, 50px);
     @include estilo-texto(34px, center, normal);
     background-color: springgreen;
@@ -28,7 +41,65 @@
     border: 3px solid white;
     transition: all .5s ease-in-out;
 
-    &:hover{
+    &:hover {
         transform: scale(1.5);
+    }
+}
+
+.icon-carrito {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    @include sizes(50px, 50px);
+    background-color: $color-primario;
+    color: $color-secundario;
+    border-radius: 50%;
+    border: 3px solid $color-primario;
+    text-decoration: none;
+    font-size: 22px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    &:hover{
+        box-shadow: 0px 1px 10px cyan;
+        
+    }
+}
+.icon-carrito-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    @include sizes(20px, 20px);
+    background-color: #fff4b9c4;
+    color: $color-secundario;
+    border-radius: 50%;
+    border: 3px solid $color-primario;
+    text-decoration: none;
+    font-size: 15px;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    padding: 10px;
+}
+
+.btn-verproducto {
+    padding: 10px;
+    background-color: $color-primario;
+    text-decoration: none;
+    color: $color-secundario;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgba(0, 255, 255, 0.548);
+    }
+}
+
+.eliminar{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: $color-terciario;
+    &:hover{
+        background-color: $color-secundario;
     }
 }

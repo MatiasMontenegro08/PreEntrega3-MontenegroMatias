@@ -1,23 +1,22 @@
 .container-fluid {
+    max-width: 100%;
     margin-bottom: 1.2rem;
     text-align: center;
 }
 
 .contenedor {
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .card {
+    margin: 0.5rem;
     border: 5px solid $color-primario;
     box-shadow: 2px 3px 10px rgb(129, 129, 129);
     margin-bottom: 50px;
-    transition: all .5s ease-in-out;
-
-    &:hover{
-        transform: scale(1.05);
-    }
 }
 
 .producto__titulo {
@@ -48,5 +47,23 @@
             text-align: center;
             font-size: 14.4px
         }
+    }
+}
+
+.card-carrito{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+
+    p{
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    button{
+        margin-left: auto;
     }
 }

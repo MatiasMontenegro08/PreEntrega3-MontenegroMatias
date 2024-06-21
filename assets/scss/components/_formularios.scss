@@ -1,0 +1,30 @@
+.formulario {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-primario;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px $color-terciario;
+    margin: auto;
+    
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 5px;
+    label{
+        font-size: 16px;
+    }
+}
+
+.form-group input {
+    width: 50%;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 0.5px solid rgb(153, 153, 153);
+}
