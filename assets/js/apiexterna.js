@@ -11,7 +11,6 @@ const cargarCatalogoMl = async () => {
                     <img class="card-img-top" src=${item.thumbnail} alt=${item.title}/>
                     <div class="card-body">
                         <h5 class="card-title">${item.title}</h5>
-                        <p class="card-text">Proveedor: ${item.official_store_name}</p>
                         <p class="card-text">Precio: $${item.price}.-</p>
                         <a href="#" class="btn btn-primary">Comprar</a>
                     </div>     
